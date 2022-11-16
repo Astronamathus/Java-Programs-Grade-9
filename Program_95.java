@@ -1,5 +1,5 @@
 //Program_95
-/*Write a program to enter the roll number, name class and marks in 10 subjects students belonging to a class 0f 25 students. 
+/*Write a program to enter the roll number, name class and marks in 10 subjects students belonging to a class of 25 students. 
  *Calculate and print the average scored by each student.*/
 //12.11.22
 //Suday Dutta
