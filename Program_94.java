@@ -1,4 +1,4 @@
-//Program_93
+//Program_94
 /*Write a nested loop program to print the following pattern:
    a
    a a
