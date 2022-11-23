@@ -13,7 +13,7 @@ class Program_95
         int marks;
         double total = 0;
         Scanner sc = new Scanner(System.in);
-        for(int n=1; n<=5; n++)
+        for(int n=1; n<=25; n++)
         {
             System.out.print("Enter your roll number: ");
             int roll_no = sc.nextInt();
@@ -21,7 +21,7 @@ class Program_95
             String name = sc.next();
             System.out.print("Enter your class: ");
             int clazz = sc.nextInt();
-            for(int i = 1; i<=3; i++)
+            for(int i = 1; i<=10; i++)
             {
                 switch(i)
                 {
@@ -41,8 +41,8 @@ class Program_95
                 marks = sc.nextInt();
                 total += marks;
             }
-            average = total/300;
-            int percentage = (int)average*100;
+            average = total/1000;
+            int percentage = (int)(average*100);
             System.out.println("Your average is: "+percentage+"%");
         }
   }
